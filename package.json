@@ -1,0 +1,24 @@
+{
+  "name": "fp",
+  "version": "1.0.0",
+  "description": "hugo",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "hugo server -D",
+    "build": "hugo",
+    "deploy": "bash ./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everyone-can-code/how-to-build-enterprise-software-with-spring-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanderV1992/everyone-can-code/issues"
+  },
+  "homepage": "https://github.com/SanderV1992/everyone-can-code#readme"
+}

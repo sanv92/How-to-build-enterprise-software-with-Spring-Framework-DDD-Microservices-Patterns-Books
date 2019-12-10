@@ -1,0 +1,29 @@
+baseURL = "//localhost/how"
+publishDir = "docs"
+
+
+languageCode = "en-us"
+title = "Functional Programming (Fantasy Land JavaScript specification Guide)"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-learn"
+
+# For search functionnality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+description = "Functional Programming (Fantasy Land JavaScript specification Guide)"
+disableLogo = true
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/SanderV1992"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
