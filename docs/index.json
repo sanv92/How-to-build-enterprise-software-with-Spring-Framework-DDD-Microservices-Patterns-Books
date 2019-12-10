@@ -1,10 +1,10 @@
 [
 {
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/java-spring-framework-libraries/",
-	"title": "Java/Spring Framework Libraries",
+	"title": "Java / Spring Framework Libraries",
 	"tags": [],
-	"description": "Java/Spring Framework Libraries",
-	"content": " Java/Spring Framework Libraries "
+	"description": "Java / Spring Framework Libraries",
+	"content": " Java / Spring Framework Libraries CQRS (command-query responsibility segregation) + EVENT SOURCING  https://axoniq.io/ - framework and server for event-driven microservices  Test-driven development (TDD)  https://testcontainers.org/ - java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.  fast to configure, forget about environmental problems, when Selenium chrome driver updates, no need configure, use docker containers, ports are configured automatically, you will trust your tests, because you run tests, with the same configuration and environments, as in production.  https://junit.org/ https://site.mockito.org/ http://rest-assured.io/ - fluent HTTP end-to-end API testing, with BDD style (including given, when, then) to create code that is expressive as well as easy to read and understand, is built on top of \u0026ldquo;spring-mock-mvc\u0026rdquo;.  Behavior-driven development (BDD)  https://cucumber.io/  Consumer-Driven Contracts (CDC)  https://www.baeldung.com/spring-cloud-contract - consumer side integration tests for the API gateway use contracts to configure a dummy HTTP server simulating the behavior of the service (Install spring-cloud-contract-wiremock and spring-cloud-contract-stub-runner dependencies). http://wiremock.org/ - simulator for HTTP-based APIs. Some might consider it a service virtualization tool or a mock server, use together with \u0026ldquo;Spring Cloud Contract\u0026rdquo;.  Message broker  https://rabbitmq.com/ https://kafka.apache.org/  Central authentication \u0026amp; authorization  https://keycloak.org/ https://gluu.org/  Logging  http://www.slf4j.org/ - logging Facade for Java http://logback.qos.ch/ - logging frameworks (use slf4j and logback together)  Elasticsearch Stack (the log aggregation infrastructure) The logging infrastructure is responsible for aggregating the logs, storing them, and enabling the user to search them. One popular logging infrastructure is the ELK stack. ELK consists of three open source products:\n https://www.elastic.co/products/elasticsearch Elasticsearch — A text search-oriented NoSQL database that’s used as the logging server. https://www.elastic.co/products/logstash Logstash — A log pipeline that aggregates the service logs and writes them to Elasticsearch. https://www.elastic.co/products/kibana Kibana — A visualization tool for Elasticsearch.  AWS  https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html - AWS CloudWatch Log.  Tracing system  https://zipkin.io/  Exception tracking services  https://honeybadger.io/  In-Memory Computing Platform  https://ignite.apache.org/ https://hazelcast.com/  Container Orchestration  https://kubernetes.io/ https://nomadproject.io/  Container Network Manager (runtime diagnostics, metrics, logging, tracing, traffic security, traffic control)  https://istio.io/ https://linkerd.io/  Api Gateway  https://aws.amazon.com/api-gateway/ - create, maintain, and secure APIs at any scale https://netflix.github.io/falcor/starter/what-is-falcor.html - combine all rest-api data as a single Virtual JSON object  Hashicorp Vault https://vaultproject.io/\nOther frameworks, similar as Spring Framework  https://micronaut.io/ https://quarkus.io/ https://helidon.io/  "
 },
 {
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/patterns/service-facade/",
@@ -35,11 +35,46 @@
 	"content": " Microservices "
 },
 {
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/",
+	"title": "Rest Api",
+	"tags": [],
+	"description": "Rest Api",
+	"content": " Rest Api "
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/tdd/",
+	"title": "Test-driven development (TDD)",
+	"tags": [],
+	"description": "Test-driven development (TDD)",
+	"content": " Test-driven development (TDD) Chapter \u0026ldquo;10.2. Component Test Development\u0026rdquo; from Microservices Patterns Book\n"
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/bdd/",
+	"title": "Behavior-driven development (BDD)",
+	"tags": [],
+	"description": "Behavior-driven development (BDD)",
+	"content": " Behavior-driven development (BDD) "
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/metrics/",
+	"title": "Metrics",
+	"tags": [],
+	"description": "Metrics",
+	"content": " Metrics "
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/spa/",
+	"title": "Single Page Application (SPA)",
+	"tags": [],
+	"description": "Single Page Application (SPA)",
+	"content": " Single Page Application (SPA) "
+},
+{
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/books/",
 	"title": "Books",
 	"tags": [],
 	"description": "Books",
-	"content": " Books "
+	"content": " Books https://everyone-can-code.github.io/books/\n"
 },
 {
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/categories/",

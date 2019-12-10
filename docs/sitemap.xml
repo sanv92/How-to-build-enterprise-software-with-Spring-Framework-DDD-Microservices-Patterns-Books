@@ -23,6 +23,26 @@
   </url>
   
   <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/tdd/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/bdd/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/metrics/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/spa/</loc>
+  </url>
+  
+  <url>
     <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/books/</loc>
   </url>
   

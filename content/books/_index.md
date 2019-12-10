@@ -2,9 +2,10 @@
 title = "Books"
 description = "Books"
 chapter = true
-weight = 5
-pre = "<b>5. </b>"
+weight = 9
+pre = "<b>9. </b>"
 +++
 
 # Books
 ---
+https://everyone-can-code.github.io/books/
