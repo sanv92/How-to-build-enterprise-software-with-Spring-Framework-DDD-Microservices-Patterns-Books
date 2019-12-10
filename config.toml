@@ -1,4 +1,4 @@
-baseURL = "//localhost/how"
+baseURL = "//localhost/how-to-build-enterprise-software-with-spring-framework"
 publishDir = "docs"
 
 

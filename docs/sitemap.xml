@@ -3,40 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//localhost/how/java-spring-framework-libraries/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/java-spring-framework-libraries/</loc>
   </url>
   
   <url>
-    <loc>//localhost/how/patterns/service-facade/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/patterns/service-facade/</loc>
   </url>
   
   <url>
-    <loc>//localhost/how/ddd/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/</loc>
   </url>
   
   <url>
-    <loc>//localhost/how/patterns/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/patterns/</loc>
   </url>
   
   <url>
-    <loc>//localhost/how/microservices/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/microservices/</loc>
   </url>
   
   <url>
-    <loc>//localhost/how/books/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/books/</loc>
   </url>
   
   <url>
-    <loc>//localhost/how/categories/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost/how/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/</loc>
   </url>
   
   <url>
-    <loc>//localhost/how/tags/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/tags/</loc>
     <priority>0</priority>
   </url>
   

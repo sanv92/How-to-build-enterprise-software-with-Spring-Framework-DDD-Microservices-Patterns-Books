@@ -1,62 +1,62 @@
 [
 {
-	"uri": "//localhost/how/java-spring-framework-libraries/",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/java-spring-framework-libraries/",
 	"title": "Java/Spring Framework Libraries",
 	"tags": [],
 	"description": "Java/Spring Framework Libraries",
 	"content": " Java/Spring Framework Libraries "
 },
 {
-	"uri": "//localhost/how/patterns/service-facade/",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/patterns/service-facade/",
 	"title": "Service Facade Pattern",
 	"tags": [],
 	"description": "Service Facade Pattern",
 	"content": " Patterns Read More:  https://www.ibm.com/support/knowledgecenter/pt-br/SSMKHH_9.0.0/com.ibm.etools.mft.pattern.sen.doc/sen/sf/overview.htm https://dzone.com/articles/jpa-implementation-patterns-3 https://xebia.com/blog/jpa-implementation-patterns-service-facades-and-data-transfers-objects/ http://www.corej2eepatterns.com/Patterns2ndEd/ServiceFacade.htm  "
 },
 {
-	"uri": "//localhost/how/ddd/",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/",
 	"title": "Domain Driven Design",
 	"tags": [],
 	"description": "Domain Driven Design",
 	"content": " Domain Driven Design "
 },
 {
-	"uri": "//localhost/how/patterns/",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/patterns/",
 	"title": "Patterns",
 	"tags": [],
 	"description": "Patterns",
 	"content": " Patterns "
 },
 {
-	"uri": "//localhost/how/microservices/",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/microservices/",
 	"title": "Microservices",
 	"tags": [],
 	"description": "Microservices",
 	"content": " Microservices "
 },
 {
-	"uri": "//localhost/how/books/",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/books/",
 	"title": "Books",
 	"tags": [],
 	"description": "Books",
 	"content": " Books "
 },
 {
-	"uri": "//localhost/how/categories/",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "//localhost/how/",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/",
 	"title": "How to build enterprise software with Spring Framework (DDD, Microservices, Patterns, Books)",
 	"tags": [],
 	"description": "",
 	"content": " How to build enterprise software with Spring Framework (DDD, Microservices, Patterns, Books) "
 },
 {
-	"uri": "//localhost/how/tags/",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
