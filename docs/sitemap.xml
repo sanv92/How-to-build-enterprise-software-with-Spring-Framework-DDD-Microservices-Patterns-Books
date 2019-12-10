@@ -3,84 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//localhost/fp/functor/</loc>
+    <loc>//localhost/how/java-spring-framework-libraries/</loc>
   </url>
   
   <url>
-    <loc>//localhost/fp/setoid/</loc>
+    <loc>//localhost/how/patterns/service-facade/</loc>
   </url>
   
   <url>
-    <loc>//localhost/fp/ord/</loc>
+    <loc>//localhost/how/ddd/</loc>
   </url>
   
   <url>
-    <loc>//localhost/fp/semigroup/</loc>
+    <loc>//localhost/how/patterns/</loc>
   </url>
   
   <url>
-    <loc>//localhost/fp/monoid/</loc>
+    <loc>//localhost/how/microservices/</loc>
   </url>
   
   <url>
-    <loc>//localhost/fp/foldable/</loc>
+    <loc>//localhost/how/books/</loc>
   </url>
   
   <url>
-    <loc>//localhost/fp/traversable/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/contravariant/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/apply/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/applicative/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/alt_plus_and_alternative/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/chain/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/chainrec/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/monad/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/extend/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/comonad/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/bifunctor_and_profunctor/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost/fp/categories/</loc>
+    <loc>//localhost/how/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost/fp/</loc>
+    <loc>//localhost/how/</loc>
   </url>
   
   <url>
-    <loc>//localhost/fp/tags/</loc>
+    <loc>//localhost/how/tags/</loc>
     <priority>0</priority>
   </url>
   
