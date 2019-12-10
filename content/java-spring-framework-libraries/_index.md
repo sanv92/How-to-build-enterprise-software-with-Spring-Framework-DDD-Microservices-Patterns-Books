@@ -108,7 +108,7 @@ The logging infrastructure is responsible for aggregating the logs, storing them
 
 #### Devops Tools
 - https://www.ansible.com/
-- https://www.terraform.io/
+- https://terraform.io/
 - https://jenkins.io/
 
 <hr />
