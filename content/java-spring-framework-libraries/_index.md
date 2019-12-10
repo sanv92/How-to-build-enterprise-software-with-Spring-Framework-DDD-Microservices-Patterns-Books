@@ -101,8 +101,15 @@ The logging infrastructure is responsible for aggregating the logs, storing them
 
 <hr />
 
-Hashicorp Vault
-https://vaultproject.io/
+#### Securely accessing secrets
+- https://vaultproject.io/ - Hashicorp Vault
+
+<hr />
+
+#### Devops Tools
+- https://www.ansible.com/
+- https://www.terraform.io/
+- https://jenkins.io/
 
 <hr />
 
