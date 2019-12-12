@@ -1,5 +1,12 @@
 [
 {
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/api-gateway/",
+	"title": "Api Gateway",
+	"tags": [],
+	"description": "Api Gateway",
+	"content": " Api Gateway Implement an API gateway that is the single entry point for all clients. The API gateway handles requests in one of two ways. Some requests are simply proxied / routed to the appropriate service. It handles other requests by fanning out to multiple services.\nTools  https://netflix.github.io/falcor/  Other articles  https://netflix.github.io/falcor/starter/what-is-falcor.html https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape  "
+},
+{
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/java-spring-framework-libraries/",
 	"title": "Java / Spring Framework Libraries",
 	"tags": [],
@@ -14,11 +21,32 @@
 	"content": " Patterns Read More:  https://www.ibm.com/support/knowledgecenter/pt-br/SSMKHH_9.0.0/com.ibm.etools.mft.pattern.sen.doc/sen/sf/overview.htm https://dzone.com/articles/jpa-implementation-patterns-3 https://xebia.com/blog/jpa-implementation-patterns-service-facades-and-data-transfers-objects/ http://www.corej2eepatterns.com/Patterns2ndEd/ServiceFacade.htm  "
 },
 {
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/ubiquitous-language/",
+	"title": "Ubiquitous Language",
+	"tags": [],
+	"description": "Ubiquitous Language",
+	"content": " Ubiquitous Language Ubiquitous language - is a model that acts as a universal language to help communication between software developers and domain experts.\nCollaborating, learning, and defining a model brings a lot of initial communication barriers between software specialists and domain experts. So evolving domain model with practicing the same type of communications (discussions, writings, and in diagrams) within a context is paramount for successful implementations, and that sort of conversation is called Ubiquitous Language.\nOther articles  https://dzone.com/articles/importance-of-ubiquitous-language-in-domain-driven  "
+},
+{
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/",
 	"title": "Domain Driven Design",
 	"tags": [],
 	"description": "Domain Driven Design",
-	"content": " Domain Driven Design "
+	"content": " Domain Driven Design Domain Driven Design (DDD) -Ubiquitous Language is a real world problem software design process that can help us come up with the model. It gives us the tools and building blocks necessary to discover and design our model and turn it into working code.\nIf you know your application is going to grow and is likely to change often, Domain-Driven Design will definitely help in managing the complexity and refactoring your model over time.\nIf you don\u0026rsquo;t understand the Domain you\u0026rsquo;re working on because it\u0026rsquo;s new and nobody has invested in a solution before, this might mean it\u0026rsquo;s complex enough for you to start applying Domain-Driven Design. In this case, you\u0026rsquo;ll need to work closely with Domain Experts to get the models right.\nIn the problem space, Domain-Driven Design uses Domains and Subdomains to group and organize what companies want to solve. In the case of an Online Travel Agency (OTA), the problem is about dealing with things like flight tickets and booking hotels. Such a Domain can be organized into different Subdomains such as Pricing, Inventory, User Management, and so on.\n"
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/entity/",
+	"title": "Entity",
+	"tags": [],
+	"description": "Entity",
+	"content": " Entity Entity\n"
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/resource-naming-guide/",
+	"title": "Resource Naming Guide",
+	"tags": [],
+	"description": "Resource Naming Guide",
+	"content": " Resource Naming Guide In REST, primary data representation is called Resource. Having a strong and consistent REST resource naming strategy – will definitely prove one of the best design decisions in the long term.\nHandle trailing slashes gracefully Wrong convention GET: /articles/  Correct convention (This is much better version) GET: /articles  Avoid using verbs in URIs Wrong convention GET: /articles/:slug/generateBanner/  POST: /articles/createNewArticle/  Correct convention GET: /articles/:slug/banner  POST: /articles  Use plural resource nouns Should you use /article/:id (singular) or /articles/:id (plural)?\nI recommend using the plural form.\nWhy? Because it fits all types of endpoints very well.\nI\u0026rsquo;d agree that GET /article/2 is fine, but what about GET /article/? Are we getting the one and only article in the system, or all of them? To prevent this kind of ambiguity, let\u0026rsquo;s be consistent (life advice!) and use plural everywhere:\nWrong convention GET: /article/2 POST: /article ...  Correct convention GET: /articles/2 POST: /articles ...  Other articles  https://restfulapi.net/resource-naming/ https://florimond.dev/blog/articles/2018/08/restful-api-design-13-best-practices-to-make-your-users-happy/  "
 },
 {
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/patterns/",
@@ -28,6 +56,20 @@
 	"content": " Patterns "
 },
 {
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/value-object/",
+	"title": "Value Object",
+	"tags": [],
+	"description": "Value Object",
+	"content": " Value Object Value Object\n"
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/aggregates/",
+	"title": "Aggregates Root",
+	"tags": [],
+	"description": "Aggregates Root",
+	"content": " Value Object Aggregates Root\n"
+},
+{
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/microservices/",
 	"title": "Microservices",
 	"tags": [],
@@ -35,11 +77,11 @@
 	"content": " Microservices "
 },
 {
-	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/",
-	"title": "Rest Api",
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/domain-events/",
+	"title": "Domain Events",
 	"tags": [],
-	"description": "Rest Api",
-	"content": " Rest Api "
+	"description": "Domain Events",
+	"content": " Domain Events Domain Events\n"
 },
 {
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/tdd/",
@@ -56,11 +98,39 @@
 	"content": " Behavior-driven development (BDD) "
 },
 {
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/repositories/",
+	"title": "Repositories",
+	"tags": [],
+	"description": "Repositories",
+	"content": " Repositories Repositories\n"
+},
+{
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/metrics/",
 	"title": "Metrics",
 	"tags": [],
 	"description": "Metrics",
 	"content": " Metrics "
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/services/",
+	"title": "Services",
+	"tags": [],
+	"description": "Services",
+	"content": " Services Services\n"
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/bounded-context/",
+	"title": "Bounded Context",
+	"tags": [],
+	"description": "Bounded Context",
+	"content": " Bounded Context Bounded Context\n"
+},
+{
+	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/",
+	"title": "Rest Api",
+	"tags": [],
+	"description": "Rest Api",
+	"content": " Rest Api "
 },
 {
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/spa/",
@@ -74,7 +144,7 @@
 	"title": "Books",
 	"tags": [],
 	"description": "Books",
-	"content": " Books https://everyone-can-code.github.io/books/\n"
+	"content": " Books  https://everyone-can-code.github.io/books/  "
 },
 {
 	"uri": "//localhost/how-to-build-enterprise-software-with-spring-framework/categories/",

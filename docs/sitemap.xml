@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/api-gateway/</loc>
+  </url>
+  
+  <url>
     <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/java-spring-framework-libraries/</loc>
   </url>
   
@@ -11,7 +15,19 @@
   </url>
   
   <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/ubiquitous-language/</loc>
+  </url>
+  
+  <url>
     <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/entity/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/resource-naming-guide/</loc>
   </url>
   
   <url>
@@ -19,11 +35,19 @@
   </url>
   
   <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/value-object/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/aggregates/</loc>
+  </url>
+  
+  <url>
     <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/microservices/</loc>
   </url>
   
   <url>
-    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/</loc>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/domain-events/</loc>
   </url>
   
   <url>
@@ -35,7 +59,23 @@
   </url>
   
   <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/repositories/</loc>
+  </url>
+  
+  <url>
     <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/metrics/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/services/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/ddd/bounded-context/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost/how-to-build-enterprise-software-with-spring-framework/rest-api/</loc>
   </url>
   
   <url>
