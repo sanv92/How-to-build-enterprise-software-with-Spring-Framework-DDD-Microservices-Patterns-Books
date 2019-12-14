@@ -11,17 +11,17 @@
 <link rel="icon" href="/how-to-build-enterprise-software-with-spring-framework/images/favicon.png" type="image/x-icon" />
 
     
-    <link href="/how-to-build-enterprise-software-with-spring-framework/css/nucleus.css?1576130629" rel="stylesheet">
-    <link href="/how-to-build-enterprise-software-with-spring-framework/css/font-awesome.min.css?1576130629" rel="stylesheet">
-    <link href="/how-to-build-enterprise-software-with-spring-framework/css/hybrid.css?1576130629" rel="stylesheet">
-    <link href="/how-to-build-enterprise-software-with-spring-framework/css/featherlight.min.css?1576130629" rel="stylesheet">
-    <link href="/how-to-build-enterprise-software-with-spring-framework/css/perfect-scrollbar.min.css?1576130629" rel="stylesheet">
-    <link href="/how-to-build-enterprise-software-with-spring-framework/css/auto-complete.css?1576130629" rel="stylesheet">
-    <link href="/how-to-build-enterprise-software-with-spring-framework/css/theme.css?1576130629" rel="stylesheet">
-    <link href="/how-to-build-enterprise-software-with-spring-framework/css/hugo-theme.css?1576130629" rel="stylesheet">
+    <link href="/how-to-build-enterprise-software-with-spring-framework/css/nucleus.css?1576335240" rel="stylesheet">
+    <link href="/how-to-build-enterprise-software-with-spring-framework/css/font-awesome.min.css?1576335240" rel="stylesheet">
+    <link href="/how-to-build-enterprise-software-with-spring-framework/css/hybrid.css?1576335240" rel="stylesheet">
+    <link href="/how-to-build-enterprise-software-with-spring-framework/css/featherlight.min.css?1576335240" rel="stylesheet">
+    <link href="/how-to-build-enterprise-software-with-spring-framework/css/perfect-scrollbar.min.css?1576335240" rel="stylesheet">
+    <link href="/how-to-build-enterprise-software-with-spring-framework/css/auto-complete.css?1576335240" rel="stylesheet">
+    <link href="/how-to-build-enterprise-software-with-spring-framework/css/theme.css?1576335240" rel="stylesheet">
+    <link href="/how-to-build-enterprise-software-with-spring-framework/css/hugo-theme.css?1576335240" rel="stylesheet">
     
 
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/jquery-2.x.min.js?1576130629"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/jquery-2.x.min.js?1576335240"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -45,14 +45,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/how-to-build-enterprise-software-with-spring-framework/js/lunr.min.js?1576130629"></script>
-<script type="text/javascript" src="/how-to-build-enterprise-software-with-spring-framework/js/auto-complete.js?1576130629"></script>
+<script type="text/javascript" src="/how-to-build-enterprise-software-with-spring-framework/js/lunr.min.js?1576335240"></script>
+<script type="text/javascript" src="/how-to-build-enterprise-software-with-spring-framework/js/auto-complete.js?1576335240"></script>
 <script type="text/javascript">
     
         var baseurl = '\/how-to-build-enterprise-software-with-spring-framework';
     
 </script>
-<script type="text/javascript" src="/how-to-build-enterprise-software-with-spring-framework/js/search.js?1576130629"></script>
+<script type="text/javascript" src="/how-to-build-enterprise-software-with-spring-framework/js/search.js?1576335240"></script>
 
     
   </div>
@@ -714,21 +714,22 @@
 
 <p>Why? Because it fits all types of endpoints very well.</p>
 
-<p>I&rsquo;d agree that <code>GET /article/2</code> is fine, but what about GET <code>/article/?</code> Are we getting the one and only article in the system, or all of them?
+<p>I&rsquo;d agree that <code>GET /article/2</code> is fine, but what about GET <code>/article/</code>
+<br />
+Are we getting the one and only one article in the system, or all of them?
+<br />
 To prevent this kind of ambiguity, let&rsquo;s be consistent (life advice!) and use plural everywhere:</p>
 
 <h5 id="wrong-convention-2"><strong>Wrong convention</strong></h5>
 
 <pre><code>GET: /article/2
 POST: /article
-...
 </code></pre>
 
 <h5 id="correct-convention-1"><strong>Correct convention</strong></h5>
 
 <pre><code>GET: /articles/2
 POST: /articles
-...
 </code></pre>
 
 <hr />
@@ -1147,20 +1148,20 @@ POST: /articles
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/clipboard.min.js?1576130629"></script>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/perfect-scrollbar.min.js?1576130629"></script>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/perfect-scrollbar.jquery.min.js?1576130629"></script>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/jquery.sticky.js?1576130629"></script>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/featherlight.min.js?1576130629"></script>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/html5shiv-printshiv.min.js?1576130629"></script>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/highlight.pack.js?1576130629"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/clipboard.min.js?1576335240"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/perfect-scrollbar.min.js?1576335240"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/perfect-scrollbar.jquery.min.js?1576335240"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/jquery.sticky.js?1576335240"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/featherlight.min.js?1576335240"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/html5shiv-printshiv.min.js?1576335240"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/highlight.pack.js?1576335240"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/modernizr.custom.71422.js?1576130629"></script>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/learn.js?1576130629"></script>
-    <script src="/how-to-build-enterprise-software-with-spring-framework/js/hugo-learn.js?1576130629"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/modernizr.custom.71422.js?1576335240"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/learn.js?1576335240"></script>
+    <script src="/how-to-build-enterprise-software-with-spring-framework/js/hugo-learn.js?1576335240"></script>
 
-    <link href="/how-to-build-enterprise-software-with-spring-framework/mermaid/mermaid.css?1576130629" type="text/css" rel="stylesheet" />
-    <script src="/how-to-build-enterprise-software-with-spring-framework/mermaid/mermaid.js?1576130629"></script>
+    <link href="/how-to-build-enterprise-software-with-spring-framework/mermaid/mermaid.css?1576335240" type="text/css" rel="stylesheet" />
+    <script src="/how-to-build-enterprise-software-with-spring-framework/mermaid/mermaid.js?1576335240"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
